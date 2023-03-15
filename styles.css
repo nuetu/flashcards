@@ -1,0 +1,74 @@
+body {
+  background: linear-gradient(37deg, #3e9bed, #3ed4ed);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+}
+main {
+  background: rgba(255, 255, 255, 0.5);
+  width: 80%;
+  padding: 5rem 0;
+  border-radius: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 2.5rem;
+  margin-top: 2.5rem;
+}
+#card {
+  width: 40rem;
+  padding: 1rem;
+  height: 24rem;
+  border: 1px solid #686868;
+  border-radius: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  cursor: pointer;
+}
+#next {
+  width: 0;
+  height: 0;
+  border-top: 2rem solid transparent;
+  border-left: 4rem solid #555;
+  border-bottom: 2rem solid transparent;
+  cursor: pointer;
+}
+#back {
+  width: 0;
+  height: 0;
+  border-top: 2rem solid transparent;
+  border-right: 4rem solid #555;
+  border-bottom: 2rem solid transparent;
+  cursor: pointer;
+}
+#nav {
+  padding: 1.5rem 0;
+  width: 66%;
+  margin-bottom: 2.5rem;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-evenly;
+}
+.item {
+  height: 5rem;
+  width: 5rem;
+  border: 1px solid #686868;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+#ger {
+  font-size: 4vw;
+}
+#eng {
+  display: none;
+  font-size: 3vw;
+}
